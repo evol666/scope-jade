@@ -1,0 +1,13 @@
+entity Commande {
+  libelle 					String
+  dtexecution 				LocalDate
+  statut 					String
+  volume		 			Integer
+  volumeveh					Integer
+}
+
+
+entity ModeleCommande {
+  libelle 					String
+  
+}
